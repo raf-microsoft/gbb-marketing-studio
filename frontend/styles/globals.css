@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Aptos';
+  src: url('/fonts/Aptos.woff2') format('woff2'),
+    url('/fonts/Aptos.woff') format('woff'),
+    url('/fonts/Aptos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aptos';
+  src: url('/fonts/Aptos-Bold.woff2') format('woff2'),
+    url('/fonts/Aptos-Bold.woff') format('woff'),
+    url('/fonts/Aptos-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --x-animation-style: cubic-bezier(0.4, 0, 0.2, 1);
+  --default-font-family: 'Aptos', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.radix-themes {
+  --default-font-family: 'Aptos', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --heading-font-family: 'Aptos', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-weight-bold: 600;
+}
+
+.rt-Button:not(:disabled),
+.rt-IconButton:where(:not(.rt-variant-ghost)) {
+  --cursor-button: pointer;
+}
+
+.rt-Button {
+  padding-top: 1px !important;
+}
+
+.accent {
+  color: var(--accent-9);
+}
+
+.accent-bg {
+  background-color: var(--accent-9);
+}
+
+.features-pattern {
+  background-color: var(--accent-9);
+  background-image: url('/pattern.svg');
+  background-size: 260px 260px;
+}
+
+.project-grid-background {
+  background-color: var(--color-gray-50);
+  background-image: linear-gradient(var(--color-gray-200) 1px, transparent 1px), linear-gradient(to right, var(--color-gray-200) 1px, var(--color-gray-50) 1px);
+  background-size: 20px 20px;
+}
