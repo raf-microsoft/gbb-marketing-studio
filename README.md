@@ -42,7 +42,7 @@ Browser → Frontend (Next.js :3000) → Backend (Express :4000) → Azure OpenA
 ## Quick Start
 
 ```bash
-./start.sh
+./startdev.sh
 ```
 
 This will:
@@ -77,7 +77,7 @@ This will:
 
 3. **Start the app:**
    ```bash
-   ./start.sh
+   ./startdev.sh
    ```
 
 ## Configuration
