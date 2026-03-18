@@ -97,9 +97,9 @@ NEXT_PUBLIC_APP_URL=https://your-app-url       # This app's public URL (used in 
 
 # ─── Azure OpenAI ────────────────────────────────────────────────────────────
 AZURE_OPENAI_ENDPOINT=https://<resource>.openai.azure.com/openai/v1/
-AZURE_OPENAI_IMAGE_DEPLOYMENT=gpt-image-1
-AZURE_OPENAI_TEXT_DEPLOYMENT=gpt-4o
-AZURE_OPENAI_VIDEO_DEPLOYMENT=sora
+AZURE_OPENAI_IMAGE_DEPLOYMENT=gpt-image-1.5
+AZURE_OPENAI_TEXT_DEPLOYMENT=gpt-5.4
+AZURE_OPENAI_VIDEO_DEPLOYMENT=sora-2
 
 # API key auth (leave empty to use DefaultAzureCredential / az login)
 # AZURE_OPENAI_API_KEY=your-api-key-here
